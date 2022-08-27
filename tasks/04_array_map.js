@@ -186,8 +186,3 @@ const addDishPrices = (dishes = [{ id: 1, kcal: 101, type: "dessert" }]) => {
 
 export { addDishPrices };
 export { transformTitleCase, addNamePrefixToStudents };
-// if(dish.type === 'dessert') {
-//     200 - (dish.kcal * 1.5);
-// } else if(dish.type !== 'dessert') {
-//     25 + dish.kcal;
-// }
